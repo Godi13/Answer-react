@@ -1,0 +1,46 @@
+.show {
+  background:url('http://7xoblm.com1.z0.glb.clouddn.com/images/bg.jpg') left top;
+  .ht {
+    height: 79px;
+  }
+}
+
+ul.xtp {
+  height: 80px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  li img {
+    box-sizing: border-box;
+    padding: 0.75px;
+    margin-left: 0.75px;
+    float: left;
+    width: 33%;
+  }
+}
+
+.huangdian {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 60%;
+}
+
+.Bx{
+  img:nth-child(3){
+    height: 340px;
+  }
+}
+
+.white {
+  height: 79px;
+  background-color: #ccc;
+}
+
+.cp a:first-child div {
+  color: #999;
+}
+
+.cp-light a:first-child div {
+  color: #222;
+}
