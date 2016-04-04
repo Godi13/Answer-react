@@ -27,6 +27,16 @@ import WebContact from './WebComponents/WebContact';
 import WebJoinUs from './WebComponents/WebJoinUs';
 
 import WebHYJY from './WebComponents/Works/WebHYJY';
+import WebJYLW from './WebComponents/Works/WebJYLW';
+import WebZSBank from './WebComponents/Works/WebZSBank';
+import WebXMZ from './WebComponents/Works/WebXMZ';
+import WebGJG from './WebComponents/Works/WebGJG';
+import WebWJX from './WebComponents/Works/WebWJX';
+import WebBX from './WebComponents/Works/WebBX';
+import WebMXG from './WebComponents/Works/WebMXG';
+import WebJCL from './WebComponents/Works/WebJCL';
+import WebADLY from './WebComponents/Works/WebADLY';
+import WebAFH from './WebComponents/Works/WebAFH';
 
 ReactDOM.render((
 <Router history={browserHistory}>
@@ -46,6 +56,16 @@ ReactDOM.render((
     <Route path="/website" component={WebSite}>
       <Route path="/website/webhome" component={WebHome} />
         <Route path="/website/hyjy" component={WebHYJY} />
+        <Route path="/website/jylw" component={WebJYLW} />
+        <Route path="/website/zsbank" component={WebZSBank} />
+        <Route path="/website/xmz" component={WebXMZ} />
+        <Route path="/website/gjg" component={WebGJG} />
+        <Route path="/website/wjx" component={WebWJX} />
+        <Route path="/website/bx" component={WebBX} />
+        <Route path="/website/mxg" component={WebMXG} />
+        <Route path="/website/jcl" component={WebJCL} />
+        <Route path="/website/adly" component={WebADLY} />
+        <Route path="/website/afh" component={WebAFH} />
       <Route path="/website/webabout" component={WebAbout} />
       <Route path="/website/webcontact" component={WebContact} />
       <Route path="/website/webjoinus" component={WebJoinUs} />

@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
     return (
       <div style={{backgroundColor: '#222'}}>
       <Nav style="nav-dark nav-contact"/>
-      <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ2ODM2Mjk4MA==" frameborder="0" allowfullscreen style={{border: 0, marginTop: 100}}></iframe>
+      <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ2ODM2Mjk4MA==" frameBorder="0" allowFullscreen style={{border: 0, marginTop: 100}}></iframe>
 
 
       <div style={{padding: 20,paddingBottom: 0,fontSize: 18, color: '#aaa'}}><i style={{fontSize: 22, color: '#eee'}}>达岸(北京)数字科技有限责任公司</i>

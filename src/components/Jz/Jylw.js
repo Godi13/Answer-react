@@ -50,7 +50,7 @@ export default class Jylw extends React.Component {
        <div className="bj">
          <Nav style="nav-jz-font"/>
          <div className="tc"></div>
-         <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ2Mzk0MjAzMg==" frameborder="0" allowfullscreen style={{border: 0, marginBottom: 30}}></iframe>
+         <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ2Mzk0MjAzMg==" frameBorder="0" allowFullscreen style={{border: 0, marginBottom: 30}}></iframe>
          <Head data={headers} style="jzdh"/>
          <Table data={tables} style="jylw"/>
          <Ddwh data={ddwhs} style="ddwh"/>

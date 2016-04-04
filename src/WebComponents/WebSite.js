@@ -7,6 +7,7 @@ class WebSite extends React.Component {
     return (
       <div>
         <WebNavBar />
+        <div style={{height: '9vh'}} />
         {this.props.children || <WebHome />}
       </div>
     );
