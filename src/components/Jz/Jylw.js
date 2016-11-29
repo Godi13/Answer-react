@@ -11,8 +11,8 @@ export default class Jylw extends React.Component {
   render() {
     var headers = [
       "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_02.png",
-      "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_03.png",
-      "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_04.png",
+      "http://7xoblm.com1.z0.glb.clouddn.com/JYLW/jinyulanwan_03.png",
+      "http://7xoblm.com1.z0.glb.clouddn.com/JYLW/jinyulanwan_04.png",
     ]
 
     var tables = [
@@ -23,13 +23,13 @@ export default class Jylw extends React.Component {
 
     var ddwhs = [
       "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_08.jpg",
-      "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_09.png",
-      "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_10.png?imageView2/1/w/690/h/350",
+      "http://7xoblm.com1.z0.glb.clouddn.com/JYLW/jinyulanwan_09.png",
+      "http://7xoblm.com1.z0.glb.clouddn.com/JYLW/jinyulanwan_10.png?imageView2/1/w/690/h/350",
       "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_11.jpg?imageView2/1/w/980/h/180"
     ]
 
     var gnsjs = [
-      "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_12.png",
+      "http://7xoblm.com1.z0.glb.clouddn.com/JYLW/jinyulanwan_12.png",
       "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_13.jpg",
       "http://7xoblm.com1.z0.glb.clouddn.com/jylw/jinyulanwan_14.jpg?imageView2/1/w/1000/h/390"
     ]
@@ -50,7 +50,7 @@ export default class Jylw extends React.Component {
        <div className="bj">
          <Nav style="nav-jz-font"/>
          <div className="tc"></div>
-         <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ2Mzk0MjAzMg==" frameBorder="0" allowFullscreen style={{border: 0, marginBottom: 30}}></iframe>
+         <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ2Mzk0MjAzMg==" frameBorder="0" allowFullScreen style={{border: 0, marginBottom: 30}}></iframe>
          <Head data={headers} style="jzdh"/>
          <Table data={tables} style="jylw"/>
          <Ddwh data={ddwhs} style="ddwh"/>

@@ -4,7 +4,7 @@ class WebContact extends React.Component {
   render() {
     return (
       <div>
-        <img src="http://7xsc8j.com1.z0.glb.clouddn.com/CONTECT/lxwm_01.png" style={{width: 400, margin: '30px auto'}} />
+        <img src="http://7xsc8j.com1.z0.glb.clouddn.com/CONTECT/lxwm_01.png" style={{width: 500, margin: '30px auto'}} />
 
         <img src="http://7xsc8j.com1.z0.glb.clouddn.com/ABOUT/lxwm_02.jpg" style={{width: '70%', margin: '0 auto'}} />
 

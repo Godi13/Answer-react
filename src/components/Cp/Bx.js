@@ -28,7 +28,7 @@ export default class Bx extends React.Component {
     return (
       <div className="Bx">
         <Nav style="cp"/>
-        <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ5MTg1OTAzNg==" frameBorder="0" allowFullscreen style={{position: 'absolute', top: 80, border: 0}}></iframe>
+        <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ5MTg1OTAzNg==" frameBorder="0" allowFullScreen style={{position: 'absolute', top: 80, border: 0}}></iframe>
         { bxs }
       </div>
     )

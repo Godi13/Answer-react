@@ -11,8 +11,8 @@ export default class Hyjy extends React.Component {
   render() {
     var headers = [
       'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_01.png',
-      'http://7xoblm.com1.z0.glb.clouddn.com/xg/haiyunjiayuan_03.png',
-      'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_04.png'
+      'http://7xoblm.com1.z0.glb.clouddn.com/HYJY/haiyunjiayuan_03.png',
+      'http://7xoblm.com1.z0.glb.clouddn.com/HYJY/haiyunjiayuan_04.png'
     ]
 
     var tables = [
@@ -23,13 +23,13 @@ export default class Hyjy extends React.Component {
 
     var ddwhs = [
       'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_08.jpg?imageView2/1/w/700/h/340',
-      'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_09.png',
-      'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_10.png',
+      'http://7xoblm.com1.z0.glb.clouddn.com/HYJY/haiyunjiayuan_09.png',
+      'http://7xoblm.com1.z0.glb.clouddn.com/HYJY/haiyunjiayuan_10.png',
       'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_11.jpg'
     ]
 
     var gnsjs = [
-      'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_12.png',
+      'http://7xoblm.com1.z0.glb.clouddn.com/HYJY/haiyunjiayuan_12.png',
       'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_13.jpg?imageView2/1/w/750/h/320',
       'http://7xoblm.com1.z0.glb.clouddn.com/hyjy/haiyunjiayuan_14.jpg'
     ]
@@ -53,7 +53,7 @@ export default class Hyjy extends React.Component {
        <div className="bj">
          <Nav style="nav-jz-font"/>
          <div className="tc"></div>
-         <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ5MTc2ODQ1Ng==" frameBorder="0" allowFullscreen style={{border: 0, marginBottom: 30}}></iframe>
+         <iframe height="250" width="100%" src="http://player.youku.com/embed/XMTQ5MTc2ODQ1Ng==" frameBorder="0" allowFullScreen style={{border: 0, marginBottom: 30}}></iframe>
          <Head data={headers} style="jzdh"/>
          <Table data={tables} style="hyjy"/>
          <Ddwh data={ddwhs} style="ddwh"/>

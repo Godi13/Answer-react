@@ -9,13 +9,13 @@ render() {
   var afh = [
     "http://7xoblm.com1.z0.glb.clouddn.com/xgtxiaoguotu_01_01.jpg",
     "http://7xoblm.com1.z0.glb.clouddn.com/xgtxiaoguotu_01_02.jpg",
-    "http://7xoblm.com1.z0.glb.clouddn.com/xgtxiaoguotu_01_04.png",
+    "http://7xoblm.com1.z0.glb.clouddn.com/XGT/xiaoguotu_01_04.png",
   ]
 
   var zybs = [
     "http://7xoblm.com1.z0.glb.clouddn.com/xgtxiaoguotu_02_01.jpg",
-    "http://7xoblm.com1.z0.glb.clouddn.com/xgtxiaoguotu_02_02.jpg",
-    "http://7xoblm.com1.z0.glb.clouddn.com/xgtxiaoguotu_02_04.png"
+    "http://7xoblm.com1.z0.glb.clouddn.com/XGT/xiaoguotu_02_02.jpg",
+    "http://7xoblm.com1.z0.glb.clouddn.com/XGT/xiaoguotu_02_04.png"
   ]
 
   let afhs = afh.map((afh,i) => {

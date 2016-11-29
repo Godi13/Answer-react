@@ -9,13 +9,13 @@ render() {
   var hyjy = [
     "http://7xoblm.com1.z0.glb.clouddn.com/jzdh/jianzhudonghua_01_01.jpg",
     "http://7xoblm.com1.z0.glb.clouddn.com/jzdh/jianzhudonghua_01_02.jpg",
-    "http://7xoblm.com1.z0.glb.clouddn.com/xg/jianzhudonghua_01_04.png",
+    "http://7xoblm.com1.z0.glb.clouddn.com/JZDH/jianzhudonghua_01_04.png",
   ]
 
   var jylw = [
     "http://7xoblm.com1.z0.glb.clouddn.com/jzdh/jianzhudonghua_02_01.jpg",
-    "http://7xoblm.com1.z0.glb.clouddn.com/jzdh/jianzhudonghua_02_02.jpg",
-    "http://7xoblm.com1.z0.glb.clouddn.com/jzdh/jianzhudonghua_02_04.png",
+    "http://7xoblm.com1.z0.glb.clouddn.com/JZDH/jianzhudonghua_02_02.jpg",
+    "http://7xoblm.com1.z0.glb.clouddn.com/JZDH/jianzhudonghua_02_04.png",
   ]
 
   let hyjys = hyjy.map((hyjy,i) => {
